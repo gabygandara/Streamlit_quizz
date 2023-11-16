@@ -16,7 +16,7 @@ with st.form("question2"):
     reponse2 = st.text_input("Quel acteur américain a remporté l'oscar du meilleur acteur 2023? ")
     button = st.form_submit_button("Confirm")
 if button:
-    if reponse2.lower() == "Brendan Fraser":
+    if reponse2.lower() == "brendan fraser":
         st.write("Excellente réponse ! ")
     else:
         st.write("Mauvaise réponse ! ")
@@ -26,7 +26,7 @@ with st.form("question3"):
     reponse3 = st.text_input("Quel artiste français a vendu le plus d'album ? ")
     button = st.form_submit_button("Confirm")
 if button:
-    if reponse3.lower() == "Johnny Hallyday":
+    if reponse3.lower() == "johnny hallyday":
         st.write(" Bonne réponse ! ")
     else:
         st.write("Mauvaise réponse ! ")
@@ -36,7 +36,7 @@ with st.form("question 4"):
     reponse3 = st.text_input("Comment s'appelle le père de Luffy dans One Piece ")
     button = st.form_submit_button("Confirm")
 if button:
-    if reponse3.lower() == "Dragon":
+    if reponse3.lower() == "dragon":
         st.write(" Bonne réponse ! ")
     else:
         st.write("Mauvaise réponse ! ")
