@@ -1,3 +1,4 @@
+#Quizz 
 import streamlit as st
 st.title("Application Quiz")
 
@@ -27,7 +28,7 @@ with st.form("question3"):
     button = st.form_submit_button("Confirm")
 if button:
     if reponse3.lower() == "johnny hallyday":
-        st.write(" Bonne réponse ! ")
+        st.write(" Excellente réponse ! ")
     else:
         st.write("Mauvaise réponse ! ")
 
@@ -36,7 +37,7 @@ with st.form("question 4"):
     reponse3 = st.text_input("Comment s'appelle le père de Luffy dans One Piece ")
     button = st.form_submit_button("Confirm")
 if button:
-    if reponse3.lower() == "dragon":
-        st.write(" Bonne réponse ! ")
+    if reponse3.lower() == "dragon": #toujours en minuscule après un lower
+        st.write(" Excellente réponse ! ")
     else:
         st.write("Mauvaise réponse ! ")
