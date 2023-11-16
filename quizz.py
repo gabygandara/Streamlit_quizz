@@ -6,7 +6,7 @@ with st.form("question1"):
     reponse1 = st.text_input("Quel est le ballon d'or 2023? ")
     button = st.form_submit_button("Confirm")
 if button:
-    if reponse1.lower() == "Messi":
+    if reponse1.lower() == "messi":
         st.write("Excellente réponse ! ")
     else:
         st.write("Mauvaise réponse ! ")
