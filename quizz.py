@@ -30,3 +30,13 @@ if button:
         st.write(" Bonne réponse ! ")
     else:
         st.write("Mauvaise réponse ! ")
+
+st.subheader("Question 4 : ")
+with st.form("question 4"):
+    reponse3 = st.text_input("Comment s'appelle le père de Luffy dans One Piece ")
+    button = st.form_submit_button("Confirm")
+if button:
+    if reponse3.lower() == "Dragon":
+        st.write(" Bonne réponse ! ")
+    else:
+        st.write("Mauvaise réponse ! ")
